@@ -15,37 +15,38 @@
     <title>Hello, world!</title> 
   </head>
   <body>
+
+     
     <div class="container-fluid">
+        
         <div class="row">
-        <div class = "col-sm-12 jumbotron text-center">
-            <h1 class="heading">Wiki Search</h1>
-            <p><i>Live search results from wikipedia...</i></p>
-            <hr class="shortHR">
-            <div class="searchBox">
-                <input type ="text" class="form-control" name="search" id="search"
-                placeholder="Type something to search!">
-                <br><br>
-                <button class="btn btn-primary random">Article of the day</button>
+            
+            <div class="col-sm-12 jumbotron text-center">
+                <h1 class="heading">Wiki Search</h1>
+                <p><i>Live search results from wikipedia..</i></p>
+                <hr class="shortHr">
+                <div class="searchBox">
+                    <input type="text" class="form-control" name="search" id="search" placeholder="Type something to search!">
+                    <br><br>
+                    <button class="btn btn-primary random">Article of the day</button>
+                </div>
             </div>
+
+
+            <div class="col-sm-8 col-sm-offset-2 searchResults">
+                <div id="update"></div>
+            </div>
+
         </div>
 
-        <div class="col-sm-8 col-sm-offset-2 searchResults">
-            <div id="update"></div>
-        </div>
-    </div>
     </div>
 
-    <div class="container-fluid.embed-responsive embed-responsive-16by9">
+
+    <div class="container-fluid embed-responsive embed-responsive-16by9">
         <div class="row">
             <iframe src="" frameborder="0" class="embed-responsive-item" widht="1080" height="760" allowfullscreen></iframe>
         </div>
     </div>
-
-     
-   
-
-
-    
     
 
 
